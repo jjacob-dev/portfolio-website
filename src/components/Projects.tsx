@@ -46,7 +46,7 @@ function Projects() {
             tags={["Angular", "Ionic", "Typescript", "HTML", "CSS"]}
             image={img2}
             live={true}
-            link="https://jjacob-dev.github.io/angular-mobile-dev/"
+            link="https://angular-mobile-dev.vercel.app"
             gitlink="https://github.com/jjacob-dev/angular-mobile-dev"
           />
           <ProjectBox
@@ -55,7 +55,7 @@ function Projects() {
             tags={["Javascript", "P5.Play", "HTML", "CSS"]}
             image={img4}
             live={true}
-            link="https://jjacob-dev.github.io/Jump-hero/"
+            link="https://jump-hero.vercel.app/"
             gitlink="https://github.com/jjacob-dev/Jump-hero"
           />
         </div>
