@@ -38,7 +38,8 @@ function Projects() {
             tags={["React.JS", "Typescript", "HTML", "Tailwind", "CSS"]}
             image={img1}
             live={true}
-            link="http://opulentnails.com/"
+            link="https://opulent-nails.vercel.app/"
+            gitlink="https://github.com/jjacob-dev/opulent-nails"
           />
           <ProjectBox
             title="Ionic mobile finance app"
