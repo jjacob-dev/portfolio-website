@@ -16,23 +16,6 @@ function Projects() {
         </div>
         <div className="flex flex-col self-center justify-center items-center gap-12 py-12 md:w-[65%]">
           <ProjectBox
-            title="FullStack Survey App"
-            desc="Simple survey website that communicates with a MySQL database using Python Flask library as the backend. Visualizes the surveys input data using charts and visuals"
-            tags={[
-              "React.JS",
-              "Typescript",
-              "Python",
-              "Flask",
-              "Tailwind",
-              "MySQL",
-              "AWS",
-            ]}
-            image={img3}
-            live={true}
-            link="https://main.d3mxvdpcka1p5q.amplifyapp.com/"
-            gitlink="https://github.com/jjacob-dev/fullstack-survey-site"
-          />
-          <ProjectBox
             title="Opulent Nails"
             desc="Clean and modern front-end application, developed using React and Tailwind to create a visually appealing website"
             tags={["React.JS", "Typescript", "HTML", "Tailwind", "CSS"]}
@@ -49,6 +32,22 @@ function Projects() {
             live={true}
             link="https://angular-mobile-dev.vercel.app"
             gitlink="https://github.com/jjacob-dev/angular-mobile-dev"
+          />
+          <ProjectBox
+            title="FullStack Survey App"
+            desc="Simple survey website that communicates with a MySQL database using Python Flask library as the backend. Visualizes the surveys input data using charts and visuals"
+            tags={[
+              "React.JS",
+              "Typescript",
+              "Python",
+              "Flask",
+              "Tailwind",
+              "MySQL",
+              "AWS",
+            ]}
+            image={img3}
+            live={false}
+            gitlink="https://github.com/jjacob-dev/fullstack-survey-site"
           />
           <ProjectBox
             title="Jump Hero, P5.Play JS game"
